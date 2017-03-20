@@ -9,7 +9,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -49,6 +49,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "event-stream": "^3.3.4",
+    "mocha": "^3.2.0",
     "vinyl-fs": "^2.4.4"
   },
   "engines": {
