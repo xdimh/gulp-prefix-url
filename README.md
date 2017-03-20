@@ -1,4 +1,4 @@
-## gulp-prefix-url
+# gulp-prefix-url
  
 
 [![Travis](https://img.shields.io/travis/xdimh/gulp-prefix-url.svg?style=flat-square)]()    [![Coveralls](https://img.shields.io/coveralls/xdimh/gulp-prefix-url.svg?style=flat-square)]()  [![Github All Releases](https://img.shields.io/github/downloads/xdimh/gulp-prefix-url/total.svg?style=flat-square)]()
@@ -36,11 +36,11 @@
 </html>
 ```
 
-### 安装
+## 安装
 
 ```npm install gulp-prefix-url --save```
 
-### 如何使用?
+## 如何使用?
 
 ```javascript
 const gulp = require('gulp'),
@@ -56,9 +56,9 @@ gulp.task('prefix',function() {
 ```
 
 
-### 参数说明
+## 参数说明
 
-#### prefixUrl(prefix,[selectors],[ignore])
+### prefixUrl(prefix,[selectors],[ignore])
 
 * prefix 
 
@@ -131,6 +131,6 @@ gulp.task('prefix',function() {
   ```
   
   
-### 证书
+## 证书
 
 [MIT](https://github.com/xdimh/gulp-prefix-url/blob/master/LICENSE)
