@@ -9,7 +9,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "test": ""
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -41,12 +41,15 @@
   },
   "dependencies": {
     "concat-stream": "^1.6.0",
+    "object-assign": "^4.1.1",
     "through2": "^2.0.3",
     "trumpet": "^1.7.2",
     "url-join": "^1.1.0"
   },
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "chai": "^3.5.0",
+    "event-stream": "^3.3.4",
+    "vinyl-fs": "^2.4.4"
   },
   "engines": {
     "node": ">=4.1.0"
