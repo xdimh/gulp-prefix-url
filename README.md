@@ -1,7 +1,8 @@
 # gulp-prefix-url
  
 
-[![Travis](https://img.shields.io/travis/xdimh/gulp-prefix-url.svg?style=flat-square)]()    [![Coveralls](https://img.shields.io/coveralls/xdimh/gulp-prefix-url.svg?style=flat-square)]()  [![Github All Releases](https://img.shields.io/github/downloads/xdimh/gulp-prefix-url/total.svg?style=flat-square)]()
+[![Travis](https://img.shields.io/travis/xdimh/gulp-prefix-url.svg?style=flat-square)]()    [![Coveralls](https://img.shields.io/coveralls/xdimh/gulp-prefix-url.svg?style=flat-square)]()  [![npm](https://img.shields.io/npm/v/gulp-prefix-url.svg?style=flat-square)]()
+[![Github All Releases](https://img.shields.io/github/downloads/xdimh/gulp-prefix-url/total.svg?style=flat-square)]()
 
 这个插件修改自[gulp-prefix](https://github.com/007design/gulp-prefix),用于为html中的某些标签特定的属性值,如link[href]的值添加前缀,往往是静态资源cdn域名地址。
 
